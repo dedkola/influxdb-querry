@@ -1,6 +1,6 @@
 'use client';
 import { useEffect } from 'react';
-import { queryInfluxDB } from '../lib/influxdb';
+import { queryInfluxDB } from '@/lib/influxdb';
 
 export default function Home() {
   useEffect(() => {
